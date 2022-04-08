@@ -1,8 +1,9 @@
+-- Create database
 drop database clothings;
 CREATE database clothings;
 
 use clothings;
-
+-- create table 
 CREATE TABLE clothings_data (
 cloths_type VARCHAR (15) not null, 
 Brand VARCHAR (15) not null, 
@@ -12,11 +13,11 @@ Size decimal (2,1) not null,
 Primary Key (cloths_type),
 Unique (brand)
 );
-
+-- alter table
 Alter table clothings_data
 modify Price varchar (5) not null;
 
-
+-- insert table
 Insert into clothings_data (cloths_type, Brand, Colour, Price, Size) 
 values (’top’, 'Adidas', 'Black', '£170', '8'),
 (’Shirt, '', 'Red', '£105', '6.5'),
