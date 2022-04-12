@@ -4,7 +4,7 @@
 Name<-c("Bee", "Mary", "Shelly", "Harry", "Sam")
 Age<-c("20", "30", "40", "33", "40")
 Roles<-c("SoftwareDeveloper", "Teacher", "Banker", "Doctor", "Nurse")
-Lengthofservices<-c("8 month" ,"9 month", "2 years", "5 years", "4 years")
+Lengthofservices<-c("8 month" , "9 month", "2 years", "5 years", "4 years")
 df<-data.frame(Name, Age, Roles, Lengthofservices)
 df
 

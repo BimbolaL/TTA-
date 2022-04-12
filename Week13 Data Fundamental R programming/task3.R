@@ -5,6 +5,7 @@
 # data : data frame to use .
 # geom : Character vector specifying geom to use. Defaults to “point” if x and y are specified, and “histogram” if only x is specified.
 # xlim, ylim: x and y axis limits
+# need to work on this 
  install.packages("ggplot2", dependencies = TRUE)
 #  load ggplot2
  library("ggplot2")

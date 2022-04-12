@@ -7,4 +7,4 @@ xSubject <- c("Maths", "English", "Science", "ComputerScience", "Drama")
 # y-axis values
 studentY <- c(2, 4, 6, 8, 10)
 
-barplot(studentY, names.arg = xSubject, col = "blue")
+barplot(studentY, names.arg = xSubject, col = "red")
